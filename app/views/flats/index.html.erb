@@ -1,0 +1,14 @@
+<h1>ALL OUR FLATS</h1>
+<div class="container">
+  <% @flats.each do |flat| %>
+    <ul>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="cards" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+            <li><%= flat.name %></li>
+          </div>
+        </div>
+      </div>
+    </ul>
+  <% end  %>
+</div>
